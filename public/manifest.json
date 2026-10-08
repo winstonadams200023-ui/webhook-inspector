@@ -1,0 +1,17 @@
+{
+  "name": "Webhook Inspector",
+  "short_name": "Webhook Inspector",
+  "description": "Inspect and debug webhook requests.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101827",
+  "theme_color": "#101827",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

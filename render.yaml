@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: webhook-inspector-receiver
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm run start:webhook
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ALLOWED_ORIGINS
+        sync: false
